@@ -1,0 +1,24 @@
+# Ball and Plate System Calibration Data
+# Format: max_alpha|max_theta
+# max_alpha: Maximum servo angle for X-axis (will be inverted in code)
+# max_theta: Maximum servo angle for Y-axis
+# These values define the mechanical limits of the servo motors
+
+# Maximum servo angles (degrees)
+-30|30
+
+# Additional calibration data can be added below in format: alpha|theta
+# This section can be used for fine-tuning servo response
+# Example calibration points (uncomment and modify as needed):
+# -25|25
+# -20|20
+# -15|15
+# -10|10
+# -5|5
+# 0|0
+# 5|-5
+# 10|-10
+# 15|-15
+# 20|-20
+# 25|-25
+# 30|-30 
